@@ -6,5 +6,4 @@ urlpatterns = [
     path("<str:name>", views.greet, name="greet"),
     path("youssef", views.youssef, name = "youssef" ),
     path("david", views.david, name = "david" )
-    
 ]
